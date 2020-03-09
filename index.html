@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header></header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <header>
+        <navbar>
+            <nav>
+              <div class="relative-top"> <!-- move navbar to same level as href navbar --> 
+                <div style="margin: 50px; height: 100px;">
+                <div class="float-md-left float-sm-left float-lg-left navbar-brand-collapse" >
+                  <ul class="nav justify-content-left"><!-- justify Navbar url to left -->
+                   
+                      
+                      <a class="navbar-brand" href="https://ca.linkedin.com/in/mikehoytottawa?trk=people-guest_people_search-card">High Scores</a>
+                      
+                  </ul>
+                
+              </div>
+             
+              <div class="float-md-right float-sm-right float-lg-right navbar-brand-collapse" > <!-- collapse navbar when reducing screensize -->
+                
+                  <ul class="nav justify-content-right"> 
+                  
+                   <a class="navbar-brand"><h4 id=countdown></h4></a>
+
+                      
+                       
+                      </div>
+                    </div>
+                </ul>
+                </div>
+    </nav>
+              </nav>
+           </div>
+          </navbar>
+    </header>
+</head>
+<body>
+  <!--Dom field-->  
+  <div class="coding quiz title">
+        <h2><center><span>You made the high score</span></center></h2>
+
+    </div class="coding quiz title">
+     <div class="coding quiz table">
+        <div class="row">
+            <div class="col-4">
+                </div>
+                <div class="col-4">   <!--Dom fields-->
+              <h5 class="coding quiz content">        <p><span id='body'>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score / time by 10 seconds.</span></p>
+            </h5>
+                </div>
+                <div class="col-4">
+                </div>
+            </div>
+     </div>
+     <div class="row">   <!--Dom fields-->
+            <div class="col-4"></div>
+            <div class="col-4"><button id="submit" class="btn generateBtn">Start</button></div>
+            <div class="col-4"></div>
+     </div>
+     <div class=row><span id='button1row' align="center"></span><div class="col-4"></div><div class="col-4"><button id="button1" class="btn"></button></div><div class="col-4"></div></div>
+     <div class=row><span id='button2row' align="center"></span><div class="col-4"></div><div class="col-4"><button id="button2" class="btn"></button></div><div class="col-4"></div></div>
+     <div class=row><span id='button3row' align="center"></span><div class="col-4"></div><div class="col-4"><button id="button3" class="btn"></button></div><div class="col-4"></div></div>
+     <div class=row><span id='button4row' align="center"></span><div class="col-4"></div><div class="col-4"><button id="button4" class="btn"></button></div><div class="col-4"></div></div>
+    
+     <div class=row><div class="col-12"><center><h5 id="answerbox" class="card title"></h5></center></div></div>
+     <div class=row><div class="col-12"><center><h5 id="answerbox2" class="card title"></h5></center></div></div>
+     
+     <div class=row><div class="col-4"></div><div class="col-4"><div class="form-group" class="col-xs-2"><label for="name" for="ex3">Name:</label><input type="text" class="form-control" id="usr"></div></div><div class="col-4"><button id="highscore" class="btn"></button></div></div>
+    
+      
+      
+    
+    
+    
+     <script src="script.js"></script>
+</body>
+</html>
